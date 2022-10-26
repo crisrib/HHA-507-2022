@@ -4,7 +4,7 @@ import uuid
 import numpy as np
 
 # load in messy data 
-df = pd.read_csv('transformation/dataFiles/113243405_StonyBrookUniversityHospital_standardcharges.csv')
+df = pd.read_csv('transformation/dataFiles/raw/113243405_StonyBrookUniversityHospital_standardcharges.csv')
 
 # get a count of the number of rows and columns
 df.shape
